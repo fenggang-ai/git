@@ -1,0 +1,45 @@
+# ---- OS ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 环境与密钥（务必不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.pub
+.secrets/
+.ssh/
+
+# ---- 日志与临时文件 ----
+*.log
+npm-debug.log*
+*.tmp
+.cache/
+tmp/
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+coverage/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
